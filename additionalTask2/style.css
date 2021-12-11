@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img-div{
+    width: 100%;
+    position: absolute;
+    height: 150px;
+    overflow: hidden;
+}
+#img{
+    width: 100%;
+    position: absolute;
+    top: -200%;
+    object-fit: cover;
+}
+#img-div h2{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 30px;
+}
+#img-div h4{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-size: 30px;
+    font-weight: lighter;
+}
+#main{
+    padding-top: 200px;
+}
+.form-control{
+    width: 150px;
+}
+#red{
+    color: rgb(141, 2, 2);
+}
