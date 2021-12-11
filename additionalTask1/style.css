@@ -1,0 +1,104 @@
+body #carousel{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+#logo img{
+    width: 150px;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+
+#carousel .carousel-item{
+    position: absolute;
+    background-color: grey;
+    opacity: 0;
+}
+
+#carousel .carousel-item img{
+    width: 100%;
+}
+
+#carousel .carousel-item a{
+    position: absolute;
+    bottom: 2%;
+    left: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.fas{
+    color: grey;
+    font-size: 50px;
+    position: absolute;
+    left: 48%;
+}
+
+.fa-chevron-down{
+    bottom: 7%;
+}
+.fa-chevron-up{
+    top: 7%;
+}
+.current{
+    opacity: 1!important;
+    height: 300px!important;
+    width: 500px!important;
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translate(-50%, -50%)!important;
+    z-index: 2!important;
+    transition: all .5s ease!important;
+}
+
+.upper{
+    height: 200px!important;
+    width: 450px!important;
+    position: absolute!important;
+    top: 14%!important;
+    left: 5%!important;
+    z-index: 1!important;
+    opacity: .8!important;
+    transition: all .5s ease!important;
+}
+
+.upper2{
+    height: 200px!important;
+    width: 400px!important;
+    position: absolute!important;
+    top: 10%!important;
+    left: 10%!important;
+    z-index: 0!important;
+    opacity: .3!important;
+    transition: all .5s ease!important;
+}
+
+.lower{
+    height: 200px!important;
+    width: 450px!important;
+    position: absolute!important;
+    bottom: 14%!important;
+    left: 5%!important;
+    z-index: 1!important;
+    opacity: .8!important;
+    transition: all .5s ease!important;
+}
+
+.lower2{
+    height: 200px!important;
+    width: 400px!important;
+    position: absolute!important;
+    bottom: 10%!important;
+    left: 10%!important;
+    z-index: 0!important;
+    opacity: .3!important;
+    transition: all .5s ease!important;
+}
